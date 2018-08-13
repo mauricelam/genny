@@ -5,7 +5,7 @@
 Install:
 
 ```
-go install github.com/mauricelam/genny
+go get github.com/CanDIG/genny
 ```
 
 Develop:
