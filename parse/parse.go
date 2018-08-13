@@ -134,14 +134,14 @@ func generateSpecific(filename string, in io.ReadSeeker, typeSet map[string]stri
 
 					i := 0
 					for {
-						i = strings.Index(word[i:], t) // find out where
+						i += strings.Index(word[i:], t) // find out where
 
 						if i > -1 {
 
 							// if this isn't an exact match
 							if i > 0 && isAlphaNumeric(rune(word[i-1])) || i < len(word)-len(t) && isAlphaNumeric(rune(word[i+len(t)])) {
 								// replace the word with a capitolized version
-								word = strings.Replace(word, t, wordify(specificType, unicode.IsUpper(rune(strings.TrimLeft(word, "*&")[0]))), 1)
+								word = strings.Replace(word, t, wordify(specificType, unicode.IsUpper(rune(strings.TrimLeft(word, "*&")[i]))), 1)
 							} else {
 								// replace the word as is
 								word = strings.Replace(word, t, typify(specificType), 1)
