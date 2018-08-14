@@ -1,6 +1,6 @@
 package multipletypes
 
-import "github.com/mauricelam/genny/generic"
+import "github.com/CanDIG/genny/generic"
 
 type KeyType generic.Type
 type ValueType generic.Type

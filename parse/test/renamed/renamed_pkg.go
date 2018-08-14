@@ -3,9 +3,9 @@ package renamed
 import (
 	"fmt"
 
-	"github.com/mauricelam/genny/generic"
+	"github.com/CanDIG/genny/generic"
 
-	testpkg "github.com/mauricelam/genny/parse/test/renamed/subpkg"
+	testpkg "github.com/CanDIG/genny/parse/test/renamed/subpkg"
 )
 
 type _t_ generic.Type

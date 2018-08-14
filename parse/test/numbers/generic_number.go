@@ -1,6 +1,6 @@
 package numbers
 
-import "github.com/mauricelam/genny/generic"
+import "github.com/CanDIG/genny/generic"
 
 type NumberType generic.Number
 

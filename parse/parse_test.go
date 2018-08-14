@@ -1,4 +1,4 @@
-package parse_test
+spackage parse_test
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mauricelam/genny/parse"
+	"github.com/CanDIG/genny/parse"
 	"github.com/stretchr/testify/assert"
 )
 

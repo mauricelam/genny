@@ -1,6 +1,6 @@
 package math
 
-import "github.com/mauricelam/genny/generic"
+import "github.com/CanDIG/genny/generic"
 
 type ThisNumberType generic.Number
 

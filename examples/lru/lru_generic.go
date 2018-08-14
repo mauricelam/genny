@@ -3,7 +3,7 @@ package lru
 import (
 	"container/list"
 
-	"github.com/mauricelam/genny/generic"
+	"github.com/CanDIG/genny/generic"
 )
 
 // A Key may be any value that is comparable. See http://golang.org/ref/spec#Comparison_operators
