@@ -3,7 +3,7 @@ package join
 import (
 	"fmt"
 
-	"github.com/mauricelam/genny/generic"
+	"github.com/CanDIG/genny/generic"
 )
 
 type Stringer interface {

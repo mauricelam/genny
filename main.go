@@ -12,7 +12,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/mauricelam/genny/parse"
+	"github.com/CanDIG/genny/parse"
 )
 
 /*

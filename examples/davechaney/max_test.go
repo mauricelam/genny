@@ -3,7 +3,7 @@ package math_test
 import (
 	"testing"
 
-	"github.com/mauricelam/genny/examples/davechaney"
+	"github.com/CanDIG/genny/examples/davechaney"
 )
 
 func TestNumberTypeMax(t *testing.T) {
