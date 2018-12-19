@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mauricelam/genny/parse"
+	"github.com/olegch/genny/parse"
 	"github.com/stretchr/testify/assert"
 )
 

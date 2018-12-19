@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/mauricelam/genny/generic"
+	"github.com/olegch/genny/generic"
 )
 
 type Stringer interface {

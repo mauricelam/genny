@@ -3,7 +3,7 @@ package btree
 import (
 	"io"
 
-	"github.com/mauricelam/genny/generic"
+	"github.com/olegch/genny/generic"
 )
 
 type key generic.Type

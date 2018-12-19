@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/mauricelam/genny/generic"
+	"github.com/olegch/genny/generic"
 )
 
 //go:generate genny -pkg=main -in=generic.go -out=gen-$GOFILE gen "TypeParam=string"

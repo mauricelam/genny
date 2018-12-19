@@ -12,7 +12,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/mauricelam/genny/parse"
+	"github.com/olegch/genny/parse"
 )
 
 /*
@@ -38,7 +38,6 @@ func main() {
 		mainErr  error
 		exitCode int
 	)
-
 	defer func() {
 		if r := recover(); r != nil {
 			fmt.Fprintf(os.Stderr, "panic: %v: %s\n", r, debug.Stack())

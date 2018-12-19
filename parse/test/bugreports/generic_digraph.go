@@ -1,6 +1,6 @@
 package bugreports
 
-import "github.com/mauricelam/genny/generic"
+import "github.com/olegch/genny/generic"
 
 type Node generic.Type
 
